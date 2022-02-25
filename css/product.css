@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+.product_box{
+    width: 1220px;
+    height: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+.product_top{
+    margin: 20px 0 20px 0;
+    width: inherit;
+    height: 45px;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+}
+.product_top>span:nth-of-type(1){
+    font-size: 14px;
+    color: #888888;
+}
+.product_top>span:nth-of-type(2){
+    font-size: 21px;
+    color: #000000;
+}
+/**/
+.product_tag{
+    height: 40px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+    display: table;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.product_tag>li{
+    width: 200px;
+    height: inherit;
+    text-align: center;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    float: left;
+    box-sizing: border-box;
+    margin-right: 25px;
+    border-spacing:25px;
+    cursor: pointer;
+}
+.product_tag>li:nth-of-type(1),.product_tag>li:nth-of-type(2),.product_tag>li:nth-of-type(3),.product_tag>li:nth-of-type(4){
+    line-height: 40px;
+}
+.product_tag>li:last-child{
+    margin-right: 0;
+    display: table-cell;
+    vertical-align: middle;
+}
+/**/
+.product_list{
+    display: inline;
+    height: auto;
+}
+.product_list>li{
+    width: 290px;
+    height: 290px;
+    display: inline-block;
+    margin: 5px;
+    position: relative;
+    cursor: pointer;
+}
+.product_list>li>label{
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    object-fit: contain;
+
+}
+.product_list>li>dl{
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    display: none;
+}
+.product_list>li>dl>dd{
+    position: relative;
+    width: inherit;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #000;
+    margin: 0;
+}
+.product_list>li>dl>dd:nth-of-type(1){
+    height: 100px;
+    line-height: 100px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.product_list>li>dl>dd:nth-of-type(2){
+    font-size: 14px;
+    height: 70px;
+    line-height: 70px;
+}
+.product_list>li>dl>dd:nth-of-type(3),.product_list>li>dl>dd:nth-of-type(4){
+    font-size: 15px;
+    height: 50px;
+    line-height: 50px;
+}

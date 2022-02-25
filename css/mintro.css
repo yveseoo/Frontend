@@ -1,0 +1,106 @@
+@charset "UTF-8";
+.menus{
+    width: 100vw;
+    height: 40px;
+    position: absolute;
+    z-index: 10;
+    background-color: rgba(202, 130, 146, 0.788);
+
+}
+.menus>ul{
+    width: 100%;
+    height: 40px;
+}
+.menus>ul>li{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: white;
+    cursor: pointer;
+}
+.menus>ul>li:hover{
+    background-color: rgba(189, 88, 109, 0.788);
+}
+.mv_page{
+    height: 100vh;
+    background-color: pink;
+    position: relative;
+}
+.mp{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    object-fit: cover;
+    overflow: hidden;
+}
+.logo{
+    position: absolute;
+    z-index: 1;
+    width: 700px;
+    left: 50%;
+    margin-left: -350px;
+    top: 170px;
+}
+.info{  /*이벤트 문구 적용 css*/
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    z-index: 2;
+    top: 350px;
+    left: 50%;
+    margin-left: -250px;
+}
+.info>ul{
+    width: 100%;
+    height: auto;
+}
+.info>ul>li{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.info>ul>li:nth-child(1){
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+.info>ul>li:nth-child(2){
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+.info>ul>li:nth-child(3){
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+}
+/*이벤트 버튼*/
+.btn{
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    margin-left: -70px;
+    bottom: -70px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    background-color: rgb(245, 132, 255);
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: tomato;
+}

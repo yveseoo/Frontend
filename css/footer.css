@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+.footer_box{
+    width: 1220px;
+    margin: 0 auto;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.footer_top{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #aaa;
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.footer_top>span>ul{
+    width: auto;
+    height: inherit;
+    float: left;
+}
+.footer_top>span>ul>li{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 17px;
+    color: #aaa;
+    text-align: center;
+    cursor: pointer;
+    border-left: 1px solid #aaa;
+    text-indent: 3px;
+}
+.footer_top>span>ul>li:nth-of-type(1){
+    border-left: 0;
+}
+.footer_top>.footer_box>span{
+    float: right;
+    width: auto;
+    padding-top: 4px;
+    box-sizing: border-box;
+}
+.footer_top>.footer_box>span>label{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+/**/
+.footer_middle{
+    width: 100%;
+    height: 265px;
+    border-bottom: 1px solid #aaa;
+    padding: 40px 0 40px 0;
+    box-sizing: border-box;
+}
+.footer_middle>span>ul{
+    float: left;
+    border-right: 1px solid #aaa;
+    height: 150px;
+}
+.footer_middle>span>ul:nth-of-type(1){
+    width: 360px;
+}
+.footer_middle>span>ul:nth-of-type(1)>li:nth-of-type(2){
+    font-size: 25px;
+    font-weight: 700;
+    height: 40px;
+    line-height: 40px;
+}
+.footer_middle>span>ul:nth-of-type(1)>li:nth-of-type(4){
+    margin-top: 20px;
+}
+.footer_middle>span>ul:nth-of-type(2){
+    width: 190px;
+}
+.footer_middle>span>ul:nth-of-type(3){
+    width: 190px;
+}
+.footer_middle>span>ul:nth-of-type(3)>li{
+    cursor: pointer;
+}
+.footer_middle>span>ul:nth-of-type(4){
+    width: auto;
+}
+.footer_middle>span>ul>li{
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.footer_middle>span>ul>li:nth-of-type(1){
+    font-size: 11px;
+    font-weight: 700;
+    height: 40px;
+    line-height: 40px;
+}
+
+/**/
+.footer_bottom{
+    padding-top: 30px;
+    width: 1220px;
+    margin: 0 auto;
+    height: 220px;
+    font-size: 12px;
+    box-sizing: border-box;
+    color: #aaa;
+}
+.footer_bottom>span:nth-of-type(1){
+    float: left;
+}
+.footer_bottom>span:nth-of-type(2){
+    float: right;
+}

@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+.menu_box1{
+    width: 100%;
+    border-bottom: 1px solid #ededed;
+    height: 40px;
+    font-size: 12px;
+}
+.menu_box1>span{
+    margin: 0 auto;
+    width: 1220px;
+}
+.menu_box1>span>ul{
+    width: auto;
+    height: inherit;
+}
+.menu_box1>span>ul:nth-of-type(1){
+    float: left;
+}
+.menu_box1>span>ul:nth-of-type(2){
+    float: right;
+}
+.menu_box1>span>ul>li{
+    width: 70px;
+    color: #777777;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    position: relative;
+}
+.menu_box1>span>ul>li:after{
+    content: "|";
+    position: absolute;
+    right: 0;
+}
+.menu_box1>span>ul>li:last-child::after{
+    content: "";
+}
+
+/**/
+.menu_box2{
+    width: 100%;
+    border-bottom: 1px solid #ededed;
+    height: 150px;
+}
+.menu_box2>ol{
+    position: relative;
+    width: 1220px;
+    height: 150px;
+    margin: 0 auto;
+}
+.logo{
+    width: 342px;
+    height: 65px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+}
+.top_ico{
+    width: 85px;
+    height: 25px;
+    position: absolute;
+    right: 50px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.top_ico>label{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    cursor: pointer;
+    float: left;
+}
+.top_ico>label>img{
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+.top_ico>label:nth-of-type(1){
+    margin-right: 30px;
+}
+
+/**/
+.menu_box3{
+    width: 100%;
+    border-bottom: 1px solid #ededed;
+    height: 40px;
+}
+.box3_sp{
+    font-family: 'Noto Sans KR', sans-serif;
+    width: 1220px;
+    margin: 0 auto;
+}
+.box3_sp>ul{
+    height: 40px;
+    display: inline;
+}
+.box3_sp>ul:nth-of-type(1){
+    float: left;
+}
+.box3_sp>ul:nth-of-type(2){
+    float: right;
+}
+.box3_sp>ul>li{
+    display: inline-block;
+    position: relative;
+    margin-right: 15px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.box3_sp>ul>li:last-child{
+    margin-right: 0;
+}
+.box3_sp>ul>li>ol{
+    background-color: white;
+    width: 120px;
+    height: auto;
+    border: 1px solid #999;
+    display: none;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 10;
+}
+.box3_sp>ul>li>ol>li{
+    height: 25px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+    cursor: pointer;
+}
